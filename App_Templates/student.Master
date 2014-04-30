@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="student.Master.cs" Inherits="JGrootWebForm.App_Templates.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Student</title>
+    <link href="../App_Themes/Theme1/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+    <a href="../studentHome.aspx" title="Home"><img src="../Images/JGroot_Test1_Logo_Multimedia.jpg" 
+       style="width: auto" /></a>
+     </header>
+     <div id='cssmenu'>
+        <ul>
+             <li><a href="../studentHome.aspx"><span>Available Tests</span></a></li>
+              <li class='last'><a href="../ViewGradesStudent.aspx"><span>View Completed Tests</span></a></li>
+              <li class='last'><a href="../Login.aspx"><span>Logout</span></a></li>
+        </ul>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="studentBody" runat="server">
+           
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

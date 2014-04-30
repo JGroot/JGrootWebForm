@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.Master.cs" Inherits="JGrootWebForm.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Administrator</title>
+    <link href="../App_Themes/Theme1/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+    <a href="../adminHome.aspx" title="Home"><img src="../Images/JGroot_Test1_Logo_Multimedia.jpg" 
+        style="width: auto"  /></a>
+        
+    </header>
+    <div id='cssmenu'>
+        <ul>
+             <li><a href="../CreateTest.aspx"><span>Create Test</span></a></li>
+             <li><a href="../CreateQA.aspx"><span>Create Questions</span></a></li>
+             <li><a href="../ViewGradesAdmin.aspx"><span>View Grades</span></a></li>
+             <li class='last'><a href="../index.aspx"><span>Logout</span></a></li>
+        </ul>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="adminBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

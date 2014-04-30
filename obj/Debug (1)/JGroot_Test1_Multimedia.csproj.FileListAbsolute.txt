@@ -1,0 +1,5 @@
+C:\Users\Admin\Google Drive\Fall_2013\Multimedia Web Elements\JGroot_Test1_Multimedia\JGroot_Test1_Multimedia\JGrootWebForm\bin\JGrootWebForm.dll
+C:\Users\Admin\Google Drive\Fall_2013\Multimedia Web Elements\JGroot_Test1_Multimedia\JGroot_Test1_Multimedia\JGrootWebForm\bin\JGrootWebForm.pdb
+C:\Users\Admin\Google Drive\Fall_2013\Multimedia Web Elements\JGroot_Test1_Multimedia\JGroot_Test1_Multimedia\JGrootWebForm\obj\Debug\JGrootWebForm.dll
+C:\Users\Admin\Google Drive\Fall_2013\Multimedia Web Elements\JGroot_Test1_Multimedia\JGroot_Test1_Multimedia\JGrootWebForm\obj\Debug\JGrootWebForm.pdb
+C:\Users\Admin\Google Drive\Fall_2013\Multimedia Web Elements\JGroot_Test1_Multimedia\JGroot_Test1_Multimedia\JGrootWebForm\obj\Debug\JGroot_Test1_Multimedia.csprojResolveAssemblyReference.cache
